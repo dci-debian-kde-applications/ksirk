@@ -1,0 +1,331 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ksirk
+Upstream-Contact: Gaël de Chalendar <kleag@free.fr>
+                  Albert Astals Cid <aacid@kde.org>
+                  Wolfgang Rohdewald <wolfgang@rohdewald.de>
+Source: http://www.kde.org/download/
+
+Files: *
+Copyright: 2002-2008, Gaël de Chalendar <kleag@free.fr>
+License: GPL-2+
+
+Files: doc/*
+Copyright: 2002-2008, Gaël de Chalendar <kleag@free.fr>
+License: GFDL-1.2+
+
+Files: ksirk/fightArena.cpp
+       ksirk/fightArena.h
+       ksirk/mainMenu.cpp
+       ksirk/mainMenu.h
+Copyright: 2008 Guillaume Pelouas <pelouas@hotmail.fr>
+License: GPL-2
+
+Files: ksirk/krightdialog.cpp
+       ksirk/krightdialog.h
+Copyright: 2008 Gael Clouet <pelouas@hotmail.fr>
+License: GPL-2
+
+Files: ksirk/iris/*
+Copyright: 2001-2008 Justin Karneges
+           2006-2008, Remko Troncon
+License: LGPL-2.1+
+
+Files: ksirk/iris/src/jdns/jdns.c
+       ksirk/iris/src/jdns/jdns.h
+       ksirk/iris/src/jdns/jdns_mdnsd.c
+       ksirk/iris/src/jdns/jdns_mdnsd.h
+       ksirk/iris/src/jdns/jdns_packet.c
+       ksirk/iris/src/jdns/jdns_packet.h
+       ksirk/iris/src/jdns/jdns_p.h
+       ksirk/iris/src/jdns/jdns_sys.c
+       ksirk/iris/src/jdns/jdns_util.c
+       ksirk/iris/src/jdns/main.cpp
+       ksirk/iris/src/jdns/qjdns.cpp
+       ksirk/iris/src/jdns/qjdns.h
+       ksirk/iris/src/jdns/qjdns_sock.cpp
+       ksirk/iris/src/jdns/qjdns_sock.h
+Copyright: 2005-2008, Justin Karneges
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files: ksirk/iris/src/irisnet/corelib/netinterface_win.cpp
+Copyright: 2008, Barracuda Networks
+License: LGPL-2.1+
+
+Files: ksirk/iris/src/libidn/idna.h
+       ksirk/iris/src/libidn/internal.h
+       ksirk/iris/src/libidn/profiles.c
+       ksirk/iris/src/libidn/stringprep.c
+       ksirk/iris/src/libidn/stringprep.h
+Copyright: 2002-2003, Simon Josefsson
+License: LGPL-2.1+
+
+Files: ksirk/iris/src/libidn/nfkc.c
+Copyright: 1999-2000, Tom Tromey
+           2000, Red Hat, Inc
+           2002-2003, Simon Josefsson
+License: LGPL-2.1+
+
+Files: ksirk/iris/src/libidn/punycode.h
+Copyright: 2002-2003, Simon Josefsson
+License: LGPL-2.1+
+Comment: This file is derived from RFC 3492 written by Adam M. Costello.
+ Disclaimer and license: Regarding this entire document or any
+ portion of it (including the pseudocode and C code), the author
+ makes no guarantees and is not responsible for any damage resulting
+ from its use.  The author grants irrevocable permission to anyone
+ to use, modify, and distribute it in any way that does not diminish
+ the rights of anyone else to use, modify, and distribute it,
+ provided that redistributed derivative works do not contain
+ misleading author or version information.  Derivative works need
+ not be licensed under similar terms.
+ .
+ Copyright (C) The Internet Society (2003).  All Rights Reserved.
+ .
+ This document and translations of it may be copied and furnished to
+ others, and derivative works that comment on or otherwise explain it
+ or assist in its implementation may be prepared, copied, published
+ and distributed, in whole or in part, without restriction of any
+ kind, provided that the above copyright notice and this paragraph are
+ included on all such copies and derivative works.  However, this
+ document itself may not be modified in any way, such as by removing
+ the copyright notice or references to the Internet Society or other
+ Internet organizations, except as needed for the purpose of
+ developing Internet standards in which case the procedures for
+ copyrights defined in the Internet Standards process must be
+ followed, or as required to translate it into languages other than
+ English.
+ .
+ The limited permissions granted above are perpetual and will not be
+ revoked by the Internet Society or its successors or assigns.
+ .
+ This document and the information contained herein is provided on an
+ "AS IS" basis and THE INTERNET SOCIETY AND THE INTERNET ENGINEERING
+ TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING
+ BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION
+ HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES OF
+ MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+Files: ksirk/iris/src/xmpp/xmpp-im/xmpp_httpauthrequest.h
+Copyright: 2006, Maciek Niedzielski
+License: LGPL-2.1+
+
+Files: ksirk/iris/src/xmpp/xmpp-im/xmpp_vcard.cpp
+       ksirk/iris/src/xmpp/xmpp-im/xmpp_vcard.cpp
+Copyright: 2003, Michail Pishchagin
+License: LGPL-2.1+
+
+Files: ksirk/iris/src/xmpp/xmpp-im/xmpp_receipts.h
+       ksirk/iris/src/xmpp/xmpp-im/xmpp_xdata.cpp
+       ksirk/iris/src/xmpp/xmpp-im/xmpp_xdata.h
+Copyright: 2003-2007, Michail Pishchagin
+License: GPL-2+
+
+Files: ksirk/GameLogic/aiColsonPlayer.cpp
+       ksirk/GameLogic/aiColsonPlayer.h
+Copyright: 1995, Jean-Claude Colson
+           2006-2007 Gael de Chalendar <kleag@free.fr>
+License: GPL-2
+
+Files: ksirk/GameLogic/xfriskaiclient.h
+Copyright: 1993-1999 Elan Feingold <elan@aetherworks.com>
+License: GPL-2+
+
+Files: ksirk/Jabber/jabberaccount.cpp
+       ksirk/Jabber/jabberaccount.h
+Copyright: 2001-2006, Kopete developers <kopete-devel@kde.org>
+           2003, Till Gerken <till@tantalo.net>
+           2006, Olivier Goffart <ogoffart@kde.org>
+           2006, Tommi Rantala <tommi.rantala@cs.helsinki.fi>
+License: GPL-2+
+
+Files: ksirk/Jabber/jabberbasecontact.cpp
+       ksirk/Jabber/jabbercontact.cpp
+       ksirk/Jabber/jabbercontactpool.cpp
+       ksirk/Jabber/jabbergroupcontact.cpp
+Copyright: 2002-2004, Till Gerken <till@tantalo.net>
+           2002-2007, the Kopete developers <kopete-devel@kde.org>
+           2006, Olivier Goffart <ogoffart@kde.org>
+License: GPL-2+
+
+Files: ksirk/Jabber/jabberprotocol.cpp
+Copyright: 2006 by Olivier Goffart <ogoffart at kde.org>
+           2002-2003 by Till Gerken <till@tantalo.net>
+           2002-2007, the Kopete developers <kopete-devel@kde.org>
+           2002 by Daniel Stone <dstone@kde.org>
+License: GPL-2+
+
+Files: ksirk/Jabber/jabberbookmarks.cpp
+       ksirk/Jabber/jabberbookmarks.h
+Copyright: 2006, Olivier Goffart <ogoffart@kde.org>
+           2006, the Kopete developers <kopete-devel@kde.org>
+License: GPL-2+
+
+Files: ksirk/Jabber/jabberbasecontact.h
+       ksirk/Jabber/jabberprotocol.h
+Copyright: 2002-2003, Till Gerken <till@tantalo.net>
+           2002-2007, the Kopete developers <kopete-devel@kde.org>
+           2002, Daniel Stone <dstone@kde.org>
+License: GPL-2+
+
+Files: ksirk/Jabber/jabberbytestream.cpp
+       ksirk/Jabber/jabberbytestream.h
+       ksirk/Jabber/jabberconnector.cpp
+       ksirk/Jabber/jabberconnector.h
+Copyright: 2004, Kopete developers <kopete-devel@kde.org>
+           2004, Till Gerken <till@tantalo.net>
+License: LGPL-2.1+
+
+Files: ksirk/Jabber/jabbercapabilitiesmanager.cpp
+       ksirk/Jabber/jabbercapabilitiesmanager.h
+Copyright: 2001-2006 by the Kopete developers <kopete-devel@kde.org>
+           2005 Remko Troncon
+           2006 by Tommi Rantala <tommi.rantala@cs.helsinki.fi>
+           2006 by Michaël Larouche <larouche@kde.org>
+License: GPL-2+
+
+Files: ksirk/Jabber/jabberclient.cpp
+       ksirk/Jabber/jabberclient.h
+Copyright: 2001-2006, Kopete developers
+           2005, Till Gerken <till@tantalo.net>
+           2006, Tommi Rantala <tommi.rantala@cs.helsinki.fi>
+           2006, Michaël Larouche <larouche@kde.org>
+License: GPL-2+
+
+Files: ksirk/Jabber/jabbercontactpool.h
+       ksirk/Jabber/jabbergroupcontact.h
+       ksirk/Jabber/jabbergroupmembercontact.cpp
+       ksirk/Jabber/jabbergroupmembercontact.h 
+Copyright: 2002-2004, Kopete developers <kopete-devel@kde.org>
+           2002-2004, Till Gerken <till@tantalo.net>
+License: GPL-2+
+
+Files: ksirk/Jabber/jabberresource.cpp
+       ksirk/Jabber/jabberresource.h
+       ksirk/Jabber/jabberresourcepool.cpp
+       ksirk/Jabber/jabberresourcepool.h
+Copyright: 2001-2006, the Kopete developers <kopete-devel@kde.org>
+           2004, Till Gerken <till@tantalo.net>
+           2005-2006, Michaël Larouche <larouche@kde.org>
+License: GPL-2+
+
+Files: ksirk/Jabber/jt_pubsub.cpp
+       ksirk/Jabber/jt_pubsub.h
+Copyright: 2008, the Kopete developers <kopete-devel@kde.org>
+           2008, Igor Janssen <alaves17@gmail.com>
+License: GPL-2+
+
+Files: ksirk/Jabber/kmessagejabber.cpp
+       ksirk/Jabber/kmessagejabber.h
+Copyright: 2001, Burkhard Lehner <Burkhard.Lehner@gmx.de>
+License: LGPL-2
+
+Files: ksirk/Jabber/privacylist.cpp
+       ksirk/Jabber/privacylist.h
+       ksirk/Jabber/privacylistitem.cpp
+       ksirk/Jabber/privacylistitem.h
+       ksirk/Jabber/privacymanager.cpp
+       ksirk/Jabber/privacymanager.h
+Copyright: 2006, Remko Troncon
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 2 as
+ published by the Free Software Foundation.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+

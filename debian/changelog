@@ -1,0 +1,6 @@
+ksirk (4:4.10.2-1) UNRELEASED; urgency=low
+
+  * First release of kdegames after being split by upstream.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 11 Apr 2013 16:08:18 +0200
+
