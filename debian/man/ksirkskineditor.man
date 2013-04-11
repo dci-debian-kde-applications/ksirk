@@ -1,0 +1,18 @@
+.TH KSIRKSKINEDITOR 6
+.SH NAME
+ksirkskineditor \- KsirK Skin Editor
+.SH SYNOPSIS
+.B ksirk
+.I [Qt-options] [KDE-options] [file]
+.SH DESCRIPTION
+.B KsirK Skin Editor
+allows you to create new skins from scratch for KsirK.
+.TP
+.B file
+file to open.
+.so kdeopt.part
+.SH SEE ALSO
+More detailed user documentation is available from
+.BR help:/ksirkskineditor
+(either enter this URL into \fBkonqueror\fP, or run `khelpcenter
+help:/ksirkskineditor').
