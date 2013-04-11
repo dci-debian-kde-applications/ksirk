@@ -1,3 +1,8 @@
+ksirk (4:4.10.2-2) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Apr 2013 01:18:23 +0200
+
 ksirk (4:4.10.2-1) experimental; urgency=low
 
   * First release of kdegames after being split by upstream.
