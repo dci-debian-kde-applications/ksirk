@@ -2,8 +2,6 @@
 ../icons/ksirk.xpm /usr/share/pixmaps
 usr/games/ksirk
 usr/games/ksirkskineditor
-usr/lib/libiris_ksirk.so.2
-usr/lib/libiris_ksirk.so.2.0.0
 usr/share/applications/kde4/ksirk.desktop
 usr/share/applications/kde4/ksirkskineditor.desktop
 usr/share/doc/kde/HTML/en/ksirk/
