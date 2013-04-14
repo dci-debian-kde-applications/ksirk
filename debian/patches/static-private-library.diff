@@ -1,3 +1,7 @@
+Description: Make libiris_ksirk statically linked into ksirk
+Author: Maximiliano Curia <maxy@debian.org>
+Last-Update: 2013-04-14
+---
 Index: ksirk/ksirk/iris/src/CMakeLists.txt
 ===================================================================
 --- ksirk.orig/ksirk/iris/src/CMakeLists.txt	2013-04-11 18:07:09.448106124 +0200
