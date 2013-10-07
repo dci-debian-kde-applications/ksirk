@@ -1,8 +1,8 @@
-ksirk (4:4.11.2-1) UNRELEASED; urgency=low
+ksirk (4:4.11.2-1) experimental; urgency=low
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Oct 2013 15:05:36 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Oct 2013 15:28:50 +0200
 
 ksirk (4:4.10.5-1) unstable; urgency=low
 
