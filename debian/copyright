@@ -212,7 +212,7 @@ License: GPL-2+
 Files: ksirk/Jabber/jabbercontactpool.h
        ksirk/Jabber/jabbergroupcontact.h
        ksirk/Jabber/jabbergroupmembercontact.cpp
-       ksirk/Jabber/jabbergroupmembercontact.h 
+       ksirk/Jabber/jabbergroupmembercontact.h
 Copyright: 2002-2004, Kopete developers <kopete-devel@kde.org>
            2002-2004, Till Gerken <till@tantalo.net>
 License: GPL-2+
@@ -258,7 +258,7 @@ License: GPL-2+
  .
  This package is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
@@ -274,7 +274,7 @@ License: GPL-2
  .
  This package is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
@@ -328,4 +328,3 @@ License: LGPL-2
  .
  On Debian systems, the complete text of the GNU Library General Public
  License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
-

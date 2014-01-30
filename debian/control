@@ -3,20 +3,22 @@ Section: games
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>,
- Sune Vuorela <sune@debian.org>,
- Fathi Boudra <fabo@debian.org>,
- Modestas Vainius <modax@debian.org>,
- George Kiagiadakis <gkiagiad@csd.uoc.gr>,
- Eshat Cakar <info@eshat.de>,
- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
- Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
- kdelibs5-dev (>= 4:4.11),
- libkdegames-dev (>= 4:4.11),
- libqca2-dev,
- pkg-config,
- zlib1g-dev
+           Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <gkiagiad@csd.uoc.gr>,
+           Eshat Cakar <info@eshat.de>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libkdegames-dev (>= 4:4.11),
+               libqca2-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.14),
+               zlib1g-dev
 Standards-Version: 3.9.5
 Homepage: http://games.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/ksirk.git
@@ -24,7 +26,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/ksirk.git
 
 Package: ksirk
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter4
 Description: Risk strategy game
  KsirK is a strategy game inspired by the well known game Risk. It is a
@@ -39,4 +41,3 @@ Description: Risk strategy game
  conquered all the world.
  .
  This package is part of the KDE games module.
-
