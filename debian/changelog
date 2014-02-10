@@ -1,11 +1,11 @@
-ksirk (4:4.12.2-1) UNRELEASED; urgency=medium
+ksirk (4:4.12.2-1) experimental; urgency=medium
 
   * Do not disable an empty test set.
   * Bump Standards-Version to 3.9.5, no changes needed.
   * New upstream release.
   * Bump kde-sc-dev-latest build dependency.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 20:56:37 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:24 +0100
 
 ksirk (4:4.11.3-1) unstable; urgency=low
 
