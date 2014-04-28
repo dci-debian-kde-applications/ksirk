@@ -1,9 +1,9 @@
-ksirk (4:4.12.4-1~) UNRELEASED; urgency=medium
+ksirk (4:4.12.4-1) unstable; urgency=medium
 
   * New upstream release.
   * Add lintian-overrides for non licensing text.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Apr 2014 17:05:47 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:25:13 +0200
 
 ksirk (4:4.12.2-1) experimental; urgency=medium
 
