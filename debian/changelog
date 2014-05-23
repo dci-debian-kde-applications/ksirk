@@ -1,6 +1,7 @@
 ksirk (4:4.13.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Refresh patches.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 10:21:37 +0200
 

@@ -4,14 +4,14 @@ Last-Update: 2013-04-14
 ---
 Index: ksirk/ksirk/iris/src/CMakeLists.txt
 ===================================================================
---- ksirk.orig/ksirk/iris/src/CMakeLists.txt	2013-04-11 18:07:09.448106124 +0200
-+++ ksirk/ksirk/iris/src/CMakeLists.txt	2013-04-11 18:17:05.439826652 +0200
-@@ -124,7 +124,7 @@
+--- ksirk.orig/ksirk/iris/src/CMakeLists.txt	2014-05-23 10:26:12.465892617 +0200
++++ ksirk/ksirk/iris/src/CMakeLists.txt	2014-05-23 10:26:12.461892775 +0200
+@@ -127,7 +127,7 @@
  )
  
  
 -kde4_add_library(iris_ksirk SHARED ${libiris_SRCS})
 +kde4_add_library(iris_ksirk STATIC ${libiris_SRCS})
  
- set(iris_ksirk_libs ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY} ${QT_QT3SUPPORT_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTXML_LIBRARY}
+ set(iris_ksirk_libs ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY} ${QT_QTNETWORK_LIBRARY} ${QT_QTXML_LIBRARY}
  ${IDN_LIBRARY} ${QCA2_LIBRARIES} ${ZLIB_LIBRARIES})
