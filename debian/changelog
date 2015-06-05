@@ -1,9 +1,13 @@
-ksirk (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
+ksirk (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
   * kde4 games need to depend on 14.12 series libkdegames. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 22:27:20 -0700
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 01:53:13 +0200
 
 ksirk (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
