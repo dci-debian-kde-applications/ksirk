@@ -1,8 +1,0 @@
-?package(ksirk):\
-	needs="x11"\
-	section="Games/Strategy"\
-	hints="KDE,Risk"\
-	title="KSirK"\
-	icon32x32="/usr/share/pixmaps/ksirk.xpm"\
-	icon16x16="/usr/share/pixmaps/ksirk-16.xpm"\
-	command="/usr/games/ksirk"
