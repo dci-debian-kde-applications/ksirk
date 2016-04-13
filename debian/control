@@ -21,8 +21,8 @@ Build-Depends: cmake,
                zlib1g-dev
 Standards-Version: 3.9.6
 Homepage: http://games.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/ksirk.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/ksirk.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/ksirk.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/ksirk.git
 
 Package: ksirk
 Architecture: any
