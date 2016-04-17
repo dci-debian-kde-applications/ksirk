@@ -1,3 +1,11 @@
+ksirk (4:15.12.0-2~1.gbpdc11a1) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @dc11a1fc8aac5a5b66ef63e1a6fde011bbb3d2d6 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:13:09 +0200
+
 ksirk (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
