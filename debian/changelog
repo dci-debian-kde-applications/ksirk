@@ -1,10 +1,20 @@
-ksirk (4:15.12.0-2~1.gbpdc11a1) UNRELEASED; urgency=medium
+ksirk (4:15.12.0-2~2.gbp18ee7e) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @18ee7eb88af1eb16ca3bd4bff8470d15d5e53e4f **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @dc11a1fc8aac5a5b66ef63e1a6fde011bbb3d2d6 **
 
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:13:09 +0200
+  [ Maximiliano Curia ]
+  * Remove menu file and friends
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Drop patch: static-private-library.diff
+  * Install the shared lib
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 17 Apr 2016 16:12:17 +0200
 
 ksirk (4:15.12.0-1) experimental; urgency=medium
 
