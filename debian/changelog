@@ -1,10 +1,6 @@
-ksirk (4:16.04.0-1~1.gbp98171f) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @98171f42be415e389862914fb3d79bbf5cd5af8a **
+ksirk (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @dc11a1fc8aac5a5b66ef63e1a6fde011bbb3d2d6 **
-
   * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
@@ -13,9 +9,8 @@ ksirk (4:16.04.0-1~1.gbp98171f) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Drop patch: static-private-library.diff
   * Install the shared lib
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 02:12:28 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 23:36:17 +0200
 
 ksirk (4:15.12.0-1) experimental; urgency=medium
 
