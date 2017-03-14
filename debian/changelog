@@ -1,3 +1,11 @@
+ksirk (4:16.04.0-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Add patch: fix-signage-of-tbl-array.diff to fix FTBFS on
+    architectures where 'char' is unsigned. (Closes: #856904)
+
+ -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Mon, 06 Mar 2017 10:44:11 +0100
+
 ksirk (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]

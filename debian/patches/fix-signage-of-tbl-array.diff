@@ -1,0 +1,15 @@
+Description: Fix signage of tbl array in XMPP code
+Author: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Last-Update: 2017-03-06
+
+--- ksirk-16.04.0.orig/ksirk/iris/src/xmpp/base64/base64.cpp
++++ ksirk-16.04.0/ksirk/iris/src/xmpp/base64/base64.cpp
+@@ -45,7 +45,7 @@ QByteArray Base64::decode(const QString&
+ 	// 64 specifies eof
+ 	// everything else specifies data
+ 
+-	char tbl[] = {
++	signed char tbl[] = {
+ 		-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+ 		-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+ 		-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,62,-1,-1,-1,63,
