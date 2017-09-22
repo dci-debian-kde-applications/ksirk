@@ -1,0 +1,62 @@
+---
+name: ksirk
+version: 17.08.1
+summary: Risk strategy game
+description: |-
+ KsirK is a strategy game inspired by the well known game Risk. It is a
+ multi-player network-enabled game with an AI. The goal of the game is simply
+ to conquer the World. It is done by attacking your neighbours with your
+ armies. At the beginning of the game, countries are distributed to all the
+ players. Each country contains one army represented by an infantryman. Each
+ player has some armies to distribute to his countries. On each turn, each
+ player can attack his neighbours, eventually conquering one or more countries.
+ At the end of each turn, some bonus armies are distributed to the players in
+ function of the number of countries they own. The winner is the player that
+ conquered all the world.
+confinement: strict
+grade: stable
+apps:
+    ksirk:
+        command: kf5-launch ksirk
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+slots:
+    session-dbus-interface:
+        interface: dbus
+        name: org.kde.ksirk
+        bus: session
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    kcolorchooser:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - libkf5kdegames-dev
+        - zlib1g-dev
+        - libqca-qt5-2-dev
+        - libphonon4qt5-dev
+        - libphonon4qt5experimental-dev
+        - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/ksirk-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
