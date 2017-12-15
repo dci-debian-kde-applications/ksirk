@@ -1,9 +1,13 @@
-ksirk (4:16.04.0-2~) UNRELEASED; urgency=medium
+ksirk (4:17.12.0-0neon) xenial; urgency=medium
 
+  [ Maximiliano Curia ]
   * New revision
   * Update uploaders list as requested by MIA team (Closes: #879373)
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 31 Oct 2017 18:02:49 +0100
+  [ Neon CI ]
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 15 Dec 2017 13:25:06 +0000
 
 ksirk (4:16.04.0-1.1) unstable; urgency=medium
 
