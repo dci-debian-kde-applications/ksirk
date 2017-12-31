@@ -12,6 +12,8 @@ ksirk (4:17.08.3-0r1) UNRELEASED; urgency=medium
     - drop ksirk.install, no more useful now
     - make sure to not ship development .so symlinks, and static libraries
     - drop not-installed, no more needed now
+  * Update the patches:
+    - fix-signage-of-tbl-array.diff: drop, fixed upstream
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:02:49 +0100
 
