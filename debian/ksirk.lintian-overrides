@@ -1,0 +1,4 @@
+# private library
+ksirk: package-name-doesnt-match-sonames libiris-ksirk2
+# private library
+ksirk: no-symbols-control-file

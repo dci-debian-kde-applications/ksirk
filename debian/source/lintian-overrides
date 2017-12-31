@@ -1,7 +1,0 @@
-# copyright comment, showing the upstream paragraph that declares itself as a
-# derived work based on the rfc, listing the original license, not covered by
-# it
-ksirk source: license-problem-non-free-RFC debian/copyright
-# derived work based on the rfc, listing the original license, not covered by
-# it
-ksirk source: license-problem-non-free-RFC ksirk/iris/src/libidn/punycode.h
