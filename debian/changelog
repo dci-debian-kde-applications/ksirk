@@ -1,4 +1,6 @@
-ksirk (4:17.08.3-0r1) UNRELEASED; urgency=medium
+ksirk (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
 
   [ Maximiliano Curia ]
   * Update uploaders list as requested by MIA team (Closes: #879373)
@@ -16,7 +18,7 @@ ksirk (4:17.08.3-0r1) UNRELEASED; urgency=medium
     - fix-signage-of-tbl-array.diff: drop, fixed upstream
   * Update lintian overrides.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:02:49 +0100
+ -- Pino Toscano <pino@debian.org>  Thu, 11 Jan 2018 09:48:41 +0100
 
 ksirk (4:16.04.0-1.1) unstable; urgency=medium
 
